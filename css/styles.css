@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Mouse+Memoirs&family=Poppins:wght@300;400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #1CB5E0 0%, #000851 100%);
+    min-height: 100vh;
+}
+
+/* =============== NAV BAR START =============== */
+
+.logoMusic {
+    width: 65px;
+    height: 65px;
+}
+
+.cusmtomNavBar {
+    background-color: #1CB5E0;
+}
+
+.navbar-toggler {
+    background-color: aliceblue ;
+}
+
+/* =============== MODAL =============== */
+
+.modal-content {
+    background: linear-gradient(180deg, #1CB5E0 0%, #056883 100%);
+    color: white;
+}
+
+.btnModalCustom {
+    background-color: #1CB5E0;
+    border-color: white;
+}
+
+/* =============== NAV BAR END=============== */
+
+
+/* =============== CAROUSEL START =============== */
+
+.mainCarousel {
+    max-height: 50rem;
+}
+
+.mainCarousel .carousel-item img {
+    max-height: 50rem;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px 2px #101010;
+}
+
+/* =============== CAROUSEL END =============== */

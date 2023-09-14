@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Tube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+
+    <!--     =============== NAVBAR START =============== -->
+
+    <nav class="navbar navbar-expand-lg cusmtomNavBar fixed-top p-2 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/images/Logo.png" class="logoMusic" alt="Logo Music Tube">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/pages/contactanos.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contactanos.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contactanos.html">Contactanos</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-outline-light mx-lg-3 mx-sm-1 btnCustom border border-2" data-bs-toggle="modal" data-bs-target="#musicTubeModal">
+                    Subscríbete
+                </button>
+                <a href="/Pages/login.html" target="_blank" class="btn btn-outline-light me-lg-5 btnCustom border border-2">
+                    Inicia Sesión
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--     =============== MODAL =============== -->
+
+    <div class="modal fade" id="musicTubeModal" tabindex="-1" aria-labelledby="musicTubeModalLabel" aria-hidden="true"
+        role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title titleCustom " id="musicTubeModalLabel">¡Suscríbete a Music Tube!</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-start">Subscribite a Music Tube para mantener al tanto de todas las noticias y
+                        lanzamientos de discos de tus artistas favoritos.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label ms-1">Ingresa tu email.</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@gmail.com" required
+                                maxlength="30">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger border border-2"
+                        data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-outline-light border border-2 btnCustom">Subscribirme</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--     =============== NAVBAR END =============== -->
+
+
+    <!--     =============== CAROUSEL START =============== -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="Carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mainCarousel">
+            <div class="carousel-item active">
+                <img src="/assets/images/Carousel1.jpg" class="d-block w-100" alt="Bad Bunny">
+                <div class="carousel-caption d-none d-sm-block text-end">
+                    <h5 class="fs-1">Bad Bunny</h5>
+                </div>
+            </div>
+            <div class="carousel-item mainCarousel">
+                <img src="/assets/images/Carousel2.jpg" class="d-block w-100" alt="Martin Garrix">
+                <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="fs-1">Martin Garrix</h5>
+                </div>
+            </div>
+            <div class="carousel-item mainCarousel">
+                <img src="/assets/images/Carousel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="fs-1">Marshmello</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--     =============== CAROUSEL END =============== -->
+
+
+<!--     =============== MAIN START =============== -->
+
+
+<div class="container-lg ">
+    <div class="row">
+        <main class="col-sm-12 col-md-8 my-4">
+
+            <div class="row ">
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/assets/images/Card1.jpg" class="card-img-top border border-3 " alt="Card Image 1">
+                    <div class="card-body ">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Paulo Londra y Duki
+                            lanzaron Party en el barrio.</h5>
+                        <br>
+                        <p class="card-text">Paulo Londra y Duki, dos referentes claves del género urbano,
+                            revolucionaron las redes con la salida de su tan esperada colaboración Party en el
+                            barrio. El video oficial del tema superó las 3 millones de visualizaciones en pocas
+                            horas. Y en alza (basta entrar ahora mismo a YouTube para ver que ya lo vieron 3.600.000
+                            personas, mejor dicho fans).</p>
+                        <br>
+                        <a href="/Pages/Noticia1.html" class="btn btn-outline-light btnCustom border border-2" target="_blank">Seguir Leyendo.</a>
+                    </div>
+                </div>
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/assets/images/Card2.jpg" class="card-img-top border border-3" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Bizarrap y Quevedo llegan
+                            al número 1° del Billboard Argentina.</h5>
+                        <br>
+                        <p class="card-text ">El Billboard Argentina Hot 100 conoce a dos nuevos líderes: Bizarrap y
+                            Quevedo. Esta semana, “Bzrp Music Sessions, vol. 52” llega al 1° después de una
+                            variación de 44 lugares desde el 45°. Con ese ascenso, entonces, la colaboración también
+                            obtiene el Greatest Gainer de la semana.</p>
+                        <br>
+                        <a href="/Pages/Noticia2.html" target="_blank" class="btn btn-outline-light btnCustom border border-2">Seguir Leyendo.</a>
+                    </div>
+                </div>
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/assets/images/Card3.jpg" class="card-img-top border border-3" alt="Card Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Bad Bunny denuncia las
+                            desigualdades en Puerto Rico.</h5>
+                        <br>
+                        <p class="card-text fs-6">No es la primera vez que el máximo referente de la música urbana
+                            se muestra involucrado con su comunidad. Días atrás, Bad Bunny lanzó el video de "El
+                            Apagón", el track número 16 de su último disco, Un Verano Sin Ti. Pero no se trata de un
+                            clip más, sino de un corto documental de 23 minutos que ya cosecha más de 6 millones de
+                            reproducciones.</p>
+                        <br>
+                        <a href="/Pages/Noticia3.html" target="_blank" class="btn btn-outline-light btnCustom border border-2">Seguir Leyendo.</a>
+                    </div>
+                </div>
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/assets/images/Card4.jpg" class="card-img-top border border-3" alt="Card Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Wos Ganó el Premio Gardel
+                            de Oro.</h5>
+                        <br>
+                        <p class="card-text">El rapero dio sus primeras impresiones minutos después de alzarse el
+                            premio mayor de la industria musical argentina en su edición 2022. "Está bueno haber
+                            competido en distintas categorías, porque el disco pasa por todo eso", dijo Wos.</p>
+                        <br>
+                        <a href="/Pages/Error404.html" target="_blank" class="btn btn-outline-light btnCustom border border-2">Seguir Leyendo.</a>
+                    </div>
+                </div>
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/assets/images/Card5.jpg" class="card-img-top border border-3" alt="Card Image 5">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Martin Garrix se presentó
+                            en vivo para gente sorda.</h5>
+                        <br>
+                        <p class="card-text ">El DJ ofreció un concierto exclusivo para gente sorda. El evento, se
+                            desarrolló en Miami, contó con una sala acondicionada para la ocasión y un equipo de
+                            sonido que transmitía principalmente las frecuencias bajas, ya que son estas a través de
+                            las vibraciones que producen las que mejor perciben las personas sin audición.</p>
+                        <br>
+                        <a href="/Pages/Error404.html" target="_blank" class="btn btn-outline-light btnCustom border border-2">Seguir Leyendo.</a>
+                    </div>
+                </div>
+                <div class="card bg-transparent text-white border border-0 py-2">
+                    <img src="/assets/images/Card6.jpg" class="card-img-top border border-3" alt="Card Image 6">
+                    <div class="card-body ">
+                        <h5 class="card-title text-center text-uppercase fs-3 titleCustom">Maluma confirmó su
+                            regreso a la Argentina</h5>
+                        <br>
+                        <p class="card-text">Tras 4 años de espera, el exitoso artista colombiano finalmente cantará
+                            para sus fans argentinos.
+                            Maluma, uno de los artistas más queridos y reconocidos a nivel mundial, vuelve al país,
+                            y lo hace a lo grande como bien se lo merece una súper estrella de su talla.
+                        </p>
+                        <br>
+                        <a href="/Pages/Error404.html" target="_blank" class="btn btn-outline-light btnCustom border border-2">Seguir Leyendo.</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!--     =============== MAIN END =============== -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+</body>
+</html>

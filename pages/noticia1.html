@@ -3,9 +3,249 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticia 1</title>
+    <title>Paulo Londra y Duki</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/assets/images/Logo3.png">
 </head>
+
 <body>
+
+    <!--     =============== NAVBAR START =============== -->
+
+    <nav class="navbar navbar-expand-lg cusmtomNavBar fixed-top p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/images/Logo.png" class="logoMusic" alt="Logo Music Tube">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active linkCustom" aria-current="page" href="/pages/noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkCustom" href="/pages/error404.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkCustom" href="/pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkCustom" href="/pages/contactanos.html">Contactanos</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-outline-light mx-lg-3 mx-sm-1 btnCustom border border-2" data-bs-toggle="modal" data-bs-target="#musicTubeModal">
+                    Subscríbete
+                </button>
+                <a href="/pages/login.html" target="_blank" class="btn btn-outline-light me-lg-5 btnCustom border border-2">
+                    Inicia Sesión
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--     =============== MODAL =============== -->
+
+    <div class="modal fade" id="musicTubeModal" tabindex="-1" aria-labelledby="musicTubeModalLabel" aria-hidden="true"
+        role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title tituloCustom2 " id="musicTubeModalLabel">¡Suscríbete a Music Tube!</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-start tituloCustom2">Subscribite a Music Tube para mantenerte al tanto de todas las noticias y
+                        lanzamientos de discos de tus artistas favoritos.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label ms-1 tituloCustom2">Ingresa tu email.</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@gmail.com" required
+                                maxlength="30">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger border border-2"
+                        data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-outline-light border border-2 btnCustom">Subscribirme</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--     =============== NAVBAR END =============== -->
+
+
+    <!--     =============== MAIN START =============== -->
+
+    <div class="container containerNoticia1">
+        <h1 class="text-center tituloCustom"><strong>Paulo Londra y Duki lanzaron
+            Party en el barrio.</strong></h1>
+        <div class="row mt-5">
+            <div>
+                <div class="card bg-transparent text-white border border-0 py-2">
+                        <img src="/assets/images/noticias/Noticia1.jpg" class="card-img-top border border-3" alt="Paulo Londra y Duki Card">
+                    <div class="mt-3">
+                        <h3 class="text-center text-uppercase mt-3 tituloCustom">Los dos fenómenos del trap Argentino unieron fuerzas.</h3>
+                        <p class="card-text mt-3 fs-4">Paulo Londra y Duki, dos referentes claves del género urbano,
+                            revolucionaron las redes con la salida de su tan esperada colaboración Party en el barrio.
+                            El video oficial del tema superó las 3 millones de visualizaciones en pocas horas.
+                            <br>
+                            <br>
+                            Party en el barrio, producida por Federico Vindver, es un trap argentino con una métrica
+                            poderosa que describe el comienzo de ambas estrellas, desde las primeras presentaciones en
+                            las plazas a llegar a los grandes escenarios. Una crónica de lo enorme que puede ser la
+                            movida del freestyle local.
+                            <br>
+                            <br>
+                            ​En esta colaboración tan esperada, Paulo invitó a Duki, su amigo de los comienzos de sus
+                            carreras, y los dos pioneros del trap argentino se unieron por primera vez en una canción
+                            juntos. El tema se puede escuchar en a través de Spotify desde este miércoles 14 de
+                            septiembre.
+                        </p>
+                    </div>
+                    <div class="ratio ratio-16x9 mt-3">
+                        <iframe src="/Assets/Videos/Paulo Londra - Party en el Barrio (feat. Duki) [Official Video]_Full-HD.mp4" title="Party en el Barrio" frameborder="0" allowfullscreen="true" autoplay="false" muted>
+                        </iframe>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-center text-uppercase tituloCustom">Un camino de gloria.</h3>
+                        <p class="card-text mt-3 fs-4">Paulo Londra y Duki Iniciaron sus carreras musicales hace 5 años en batallas de freestyle
+                            barriales, y ahora fusionan su talento y experiencia en la colaboración más esperada de la
+                            escena local, que cuenta la historia de dos artistas que se ganaron su lugar entre los más
+                            escuchados del género urbano.
+                            <br>
+                            <br>
+                            De competir en los barrios a triunfar en las mayores, Paulo Londra y Duki arrasaron la industria
+                            musical con un estilo sin precedentes. Hoy, las rimas los han vuelto a unir para escribir un
+                            nuevo y épico capítulo en la historia de la escena musical argentina.
+                        </p>
+                        <div class="container">
+                            <h3 class="text-start tituloCustom4 mt-5">Dejanos un Comentario</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="mb-3 mt-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nicovarela@gmail.com" maxlength="30">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Agregar un Comentario</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="300"></textarea>
+                                            <button class="btn btn-info border-0 mt-3 buttonCustom" type="submit">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <hr class="border border-white border-1 opacity-100 mt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-1 col-lg-1 col-sm-1">
+                <img src="/assets/images/nosotros/Avatar1.png" alt="Avatar 1" class="imgComentCustom">
+            </div>
+            <div class=" col-xl-10 col-lg-9 col-sm-9 ms-lg-4 ms-sm-5">
+                <h5 class="text-white fs-4 titleCustom2">Matias Alvarez</h5>
+                    <p class="text-white">Sin duda, he esperado esta colaboración desde hace años y decir que este gran temazo por tremendas leyendas argentinas.
+                    La música es un conjunto de letras que marcaron algún momento en su vida y en este tema dicen todas las cicatrices de luchas con las cuales convivieron y conviven.
+                    </p>
+            </div>
+        </div>
+        <hr class="border border-white border-1 opacity-100 mt-2">
+        <div class="row">
+            <div class="col-xl-1 col-lg-1 col-sm-1">
+                <img src="/assets/images/nosotros/Avatar2.png" alt="Avatar 2" class="imgComentCustom">
+            </div>
+            <div class=" col-xl-10 col-lg-9 col-sm-9 ms-lg-4 ms-sm-5">
+                <h5 class="text-white fs-4 titleCustom2">Mario Alonso</h5>
+                    <p class="text-white">Ver a estos dos juntos transmite algo inexplicable. He esperado esto tanto tiempo que no se que sentir pero se siente hermoso ;. Muchas gracias Paulo y Duko por hacerme sentir esto con vuestra música y por ayudar a tanta gente con lo que hacéis. Os amo y espero veros en España y cantar este tema a pulmón y hasta que no me den las cuerdas vocales.
+                    </p>
+            </div>
+        </div>
+        <hr class="border border-white border-1 opacity-100 mt-2">
+        <div class="row">
+            <div class="col-xl-1 col-lg-1 col-sm-1">
+                <img src="/assets/images/nosotros/Avatar3.png" alt="Avatar 3" class="imgComentCustom">
+            </div>
+            <div class=" col-xl-10 col-lg-9 col-sm-9 ms-lg-4 ms-sm-5">
+                <h5 class="text-white fs-4 titleCustom2">Iliana Rocío Beneventano</h5>
+                    <p class="text-white">Los Amo chicos, buen trabajo sigan así, adelante cuidensen. Simplemente GRACIAS. EXITOS POR mas MUSICAS de Uds. Admiración y respeto. Mucho cariño para Uds y su familia de sponsor.
+                    </p>
+            </div>
+        </div>
+        <hr class="border border-white border-1 opacity-100 mt-2">
+        <div class="row">
+            <div class="col-xl-1 col-lg-1 col-sm-1">
+                <img src="/assets/images/nosotros/Avatar4.png" alt="Avatar 4" class="imgComentCustom">
+            </div>
+            <div class=" col-xl-10 col-lg-9 col-sm-9 ms-lg-4 ms-sm-5">
+                <h5 class="text-white fs-4 titleCustom2">Karina Rodriguez</h5>
+                    <p class="text-white">Alguien más quiso llorar en la parte del segundo coro con el "dukooo" .. y el hecho de q lo dijera el "leones con flow" 🥺🥺🥺 pensé q nunca vería esto. Y q quedara tan perfecto.. la escucho diario al levantarme y mi día se va al 💯🔥🔥🔥❤️ los amo.. Pau me haz hecho tan feliz escucharte como antes. Amo todo lo q haces pero esto no lo superaré en un rato. ❤️ Argentina está en la casa cabr*nes! De una venezolana q los ama.
+                    </p>
+            </div>
+        </div>
+        <hr class="border border-white border-1 opacity-100 mt-2">
+        <div class="row mb-4">
+            <div class="col-xl-1 col-lg-1 col-sm-1">
+                <img src="/assets/images/nosotros/Avatar5.png" alt="Avatar 5" class="imgComentCustom">
+            </div>
+            <div class=" col-xl-10 col-lg-9 col-sm-9 ms-lg-4 ms-sm-5">
+                <h5 class="text-white fs-4 titleCustom2">Nahuel Carmona</h5>
+                    <p class="text-white">El beatbox de iacho, tiempos del Quinto escalón, recuerdo cuando vi la batalla de MKS, Duki, paulo londra y Belze, el minutado de duki, quien diría que años después estos dos llevarían bien alto a nivel musical a su país, recordar es vivir y esta canción es la clave de esa frase, que sigan y suban mucho mucho mas, amén.
+                    </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--     =============== MAIN END =============== -->
+
+
+    <!--     =============== FOOTER START =============== -->
     
+        <footer class=" text-light pt-4 pb-1" style="background-color: rgba(0, 0, 0, 0.178);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto text-center">
+                        <a href="/index.html" >
+                            <img src="/assets/images/Logo.png" style="width: 150px; height: 150px;" alt="Logo Music Tube">
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto text-center">
+                        <h3 class="tituloCustom3">Conocenos</h3>
+                        <p class="mt-3">Somos un grupo de desarroladores apasionados por la Música. En esta página te traemos las últimas noticias sobre tus artistas favoritos.</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto text-center">
+                        <h4 class="tituloCustom3">Seguinos en las Redes</h4>
+                        <div class="mt-3">
+                            <a class="fa-brands fa-spotify fs-3 p-2 iconoCustom" href="/pages/error404.html" target="_blank">
+                        </a>
+                            <a class="fa-brands fa-instagram fs-3 p-2 iconoCustom" href="/pages/error404.html" target="_blank">
+                        </a>
+                            <a class="fa-brands fa-youtube fs-3 p-2 iconoCustom" href="/pages/error404.html" target="_blank">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-white opacity-75">
+            <p class="text-center">
+            Music Tube. &copy; Todos los Derechos Reservados.
+            </p>
+        </footer>
+
+    <!--     =============== FOOTER END =============== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
 </body>
 </html>

@@ -16,6 +16,25 @@ body {
     height: 65px;
 }
 
+@media (min-width: 992px) {
+    .navbar-nav .nav-item {
+        margin-left: 20px;
+    }
+    .logoMusic {
+        margin-left: 250px;
+    }
+}
+
+.linkCustom {
+    color: #ffffff !important;
+    font-size: 20px;
+    
+}
+
+.linkCustom:hover{
+    color: #000000 !important;
+}
+
 .cusmtomNavBar {
     background-color: #1CB5E0;
 }
@@ -38,6 +57,10 @@ body {
 
 /* =============== NAV BAR END=============== */
 
+.tituloCustom {
+    color: white;
+    text-shadow: 2px 1px 1px  rgb(0, 0, 0);
+}
 
 /* =============== CAROUSEL START =============== */
 
@@ -50,8 +73,150 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 768px) {
+    .mainCarousel {
+        margin-top: 60px;
+    }
+}
+
 .carousel-caption {
     text-shadow: 1px 1px 2px #101010;
 }
 
 /* =============== CAROUSEL END =============== */
+
+
+/* =============== MAIN START =============== */
+
+.linkCustom {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.linkCustom:hover {
+    color: #ffffff;
+}
+
+.tituloCustom {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.tituloCustom2 {
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.containerCustom div img {
+    transition: transform .5s ease;
+    box-shadow: 0 10px 6px -6px rgba(6,4,12,0.801);
+    cursor: pointer;
+}
+
+.containerCustom div img:hover {
+    transform: scale(1.1);
+}
+
+.containerError404 {
+    margin-top: 100px;
+}
+
+.containerNoticias {
+    margin-top: 120px;
+}
+
+.containerNoticias div img {
+    transition: transform .5s ease;
+    box-shadow: 0 10px 6px -6px rgba(6,4,12,0.801);
+    cursor: pointer;
+}
+
+.containerNoticias div img:hover {
+    transform: scale(1.1);
+}
+
+.containerNoticia1 {
+    margin-top: 120px;
+}
+
+.containerNosotros {
+    margin-top: 100px;
+}
+
+.containerContacto {
+    margin-top: 140px;
+}
+
+.containerLogin {
+    margin-top: 120px;
+}
+
+.buttonCustom:hover {
+    color: #ffffff;
+    background-color: #0aadda;
+}
+
+.imgComentCustom {
+    height: 100px;
+    width: 100px;
+}
+
+.avatarCustom {
+    height: 200px;
+    width: 200px;
+}
+
+.formCustom {
+    background: radial-gradient(343px at 46.3% 47.5%,#f2f2f2 0,#f1f1f1 72.9%);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    padding: 30px;
+    width: 400px;
+}
+
+.inputCustom {
+    border-radius: 5px;
+	border-color: #1CB5E0;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* =============== MAIN END =============== */
+
+
+/* =============== ASIDE =============== */
+
+.tituloCustom3 {
+    color: #1CB5E0 !important;
+}
+
+.accordion-button {
+    color: #1CB5E0;
+}
+
+/* =============== FOOTER START =============== */
+
+@media (min-width: 1200px) {
+    .footerCustom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.178);
+        text-align: center;
+    }
+}
+.tituloCustom4 {
+    color: #1CB5E0;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.iconoCustom {
+    text-decoration: none;
+    color: white;
+}
+
+.iconoCustom:hover {
+    color: #1CB5E0;
+}

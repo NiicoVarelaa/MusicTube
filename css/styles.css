@@ -208,6 +208,14 @@ body {
     }
 }
 
+@media (max-width: 1200px) {
+    .footerCustom {
+        position: static; 
+        width: 100%; 
+        bottom: 0; 
+    }
+}
+
 .tituloCustom4 {
     color: #1CB5E0;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);

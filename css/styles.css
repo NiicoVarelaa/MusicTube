@@ -198,21 +198,8 @@ body {
 /* =============== FOOTER START =============== */
 
 @media (min-width: 1200px) {
-    .footerCustom {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(0, 0, 0, 0.178);
-        text-align: center;
-    }
-}
-
-@media (max-width: 1200px) {
-    .footerCustom {
-        position: static; 
-        width: 100%; 
-        bottom: 0; 
+    .imgError404{
+        height: 600px;
     }
 }
 
